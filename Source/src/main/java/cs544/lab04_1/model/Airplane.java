@@ -13,6 +13,7 @@ public class Airplane {
 	@Id
 	@GeneratedValue
 	private long id;
+	//test 
 	private String serialnr;
 	private String model;
 	private int capacity;

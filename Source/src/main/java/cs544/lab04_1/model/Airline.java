@@ -13,6 +13,7 @@ public class Airline {
 	@Id
 	@GeneratedValue
 	private long id;
+	//private String name;
 	private String name;
 	@OneToMany(mappedBy = "airline")
 	@OrderBy("departureDate, departureTime")
